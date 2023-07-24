@@ -1,20 +1,20 @@
 type_short,type,address,city,price,sales_date,sales_type,sqm,sqm_price,rooms,build_year,price_change,actual_price
 E,Ejerlejlighed,"Sofiegade 24, 1 14",1418 København K,1550000,15-05-2023,Fam Salg,58,26724 kr/m²,2,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 2, 3 th",1418 København K,4850000,07-03-2023,Alm Salg,70,69286 kr/m²,3,1882,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 20, 3 th",1418 København K,4325000,22-01-2023,Alm Salg,73,59247 kr/m²,3,1958,2,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 20, st tv",1418 København K,3400000,02-02-2022,Alm Salg,61,55738 kr/m²,2,1958,3,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, st 5",1418 København K,2300000,04-10-2021,Alm Salg,38,60526 kr/m²,1,1975,2,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 20, 3 th",1418 København K,4325000,22-01-2023,Alm Salg,73,59247 kr/m²,3,1958,-2,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 20, st tv",1418 København K,3400000,02-02-2022,Alm Salg,61,55738 kr/m²,2,1958,-3,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, st 5",1418 København K,2300000,04-10-2021,Alm Salg,38,60526 kr/m²,1,1975,-2,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 20, 4 tv",1418 København K,4995000,06-09-2021,Alm Salg,70,71357 kr/m²,3,1958,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, st 1",1418 København K,3800000,29-06-2021,Alm Salg,83,45783 kr/m²,4,1975,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 1 9",1418 København K,3240000,07-04-2021,Alm Salg,59,54915 kr/m²,2,1975,2,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 20, 3 tv",1418 København K,3800000,28-03-2021,Alm Salg,75,50667 kr/m²,3,1958,24,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 1 9",1418 København K,3240000,07-04-2021,Alm Salg,59,54915 kr/m²,2,1975,-2,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 20, 3 tv",1418 København K,3800000,28-03-2021,Alm Salg,75,50667 kr/m²,3,1958,-24,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 3 26",1418 København K,2351000,24-03-2021,Alm Salg,38,61868 kr/m²,1,1975,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 1 10",1418 København K,1900000,31-08-2020,Alm Salg,38,50000 kr/m²,1,1975,5,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 2, 1 th",1418 København K,4045000,23-04-2020,Alm Salg,70,57786 kr/m²,3,1882,4,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, st 4",1418 København K,1900000,31-03-2020,Alm Salg,38,50000 kr/m²,1,1975,5,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 2, 2 tv",1418 København K,4430000,01-12-2019,Alm Salg,77,57532 kr/m²,3,1882,1,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 20, 2 tv",1418 København K,4025000,20-07-2019,Alm Salg,75,53667 kr/m²,3,1958,1,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 4 30",1418 København K,2950000,13-06-2019,Alm Salg,59,50000 kr/m²,2,1975,5,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 1 10",1418 København K,1900000,31-08-2020,Alm Salg,38,50000 kr/m²,1,1975,-5,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 2, 1 th",1418 København K,4045000,23-04-2020,Alm Salg,70,57786 kr/m²,3,1882,-4,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, st 4",1418 København K,1900000,31-03-2020,Alm Salg,38,50000 kr/m²,1,1975,-5,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 2, 2 tv",1418 København K,4430000,01-12-2019,Alm Salg,77,57532 kr/m²,3,1882,-1,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 20, 2 tv",1418 København K,4025000,20-07-2019,Alm Salg,75,53667 kr/m²,3,1958,-1,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 4 30",1418 København K,2950000,13-06-2019,Alm Salg,59,50000 kr/m²,2,1975,-5,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 2 21",1418 København K,1147500,13-01-2019,Fam Salg,58,19784 kr/m²,2,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 1 12",1418 København K,1600000,07-01-2019,Fam Salg,38,42105 kr/m²,1,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 1 8",1418 København K,3600000,19-08-2018,Alm Salg,83,43373 kr/m²,3,1975,0,Aktuel værdi
@@ -23,19 +23,19 @@ E,Ejerlejlighed,"Sofiegade 20, 2 th",1418 København K,1560000,06-06-2018,Fam Sa
 E,Ejerlejlighed,"Sofiegade 24, 2 19",1418 København K,1800000,01-11-2017,Alm Salg,38,47368 kr/m²,1,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 2, 2 th",1418 København K,3925000,26-08-2017,Alm Salg,70,56071 kr/m²,3,1882,1,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 20, 4 th",1418 København K,2200000,11-12-2016,Alm Salg,68,32353 kr/m²,3,1958,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 1 13",1418 København K,2325000,24-02-2016,Alm Salg,64,36328 kr/m²,2,1975,7,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, st 3",1418 København K,1500000,09-08-2015,Alm Salg,38,39474 kr/m²,1,1975,3,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 2 16",1418 København K,2295000,26-05-2015,Alm Salg,59,38898 kr/m²,2,1975,4,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 22, st 7",1418 København K,1450000,24-08-2014,Alm Salg,58,25000 kr/m²,2,1975,9,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 2, 1 tv",1418 København K,3310000,05-08-2014,Alm Salg,77,42987 kr/m²,3,1882,3,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 2 18",1418 København K,1245000,25-05-2013,Alm Salg,38,32763 kr/m²,1,1975,4,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 1 13",1418 København K,2325000,24-02-2016,Alm Salg,64,36328 kr/m²,2,1975,-7,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, st 3",1418 København K,1500000,09-08-2015,Alm Salg,38,39474 kr/m²,1,1975,-3,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 2 16",1418 København K,2295000,26-05-2015,Alm Salg,59,38898 kr/m²,2,1975,-4,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 22, st 7",1418 København K,1450000,24-08-2014,Alm Salg,58,25000 kr/m²,2,1975,-9,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 2, 1 tv",1418 København K,3310000,05-08-2014,Alm Salg,77,42987 kr/m²,3,1882,-3,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 2 18",1418 København K,1245000,25-05-2013,Alm Salg,38,32763 kr/m²,1,1975,-4,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 4 29",1418 København K,1250000,24-11-2012,Alm Salg,41,30488 kr/m²,1,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 4 31",1418 København K,1120000,07-10-2012,Auktion,38,29474 kr/m²,1,1975,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 10, st tv",1418 København K,2575000,11-08-2011,Alm Salg,85,30294 kr/m²,2,1977,1,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 3 22",1418 København K,2200000,28-02-2011,Alm Salg,83,26506 kr/m²,3,1975,8,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 10, st tv",1418 København K,2575000,11-08-2011,Alm Salg,85,30294 kr/m²,2,1977,-1,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 3 22",1418 København K,2200000,28-02-2011,Alm Salg,83,26506 kr/m²,3,1975,-8,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 3 23",1418 København K,1585000,30-08-2010,Alm Salg,59,26864 kr/m²,2,1975,0,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 2, 4",1418 København K,4050000,17-11-2009,Alm Salg,138,29348 kr/m²,5,1882,3,Aktuel værdi
-E,Ejerlejlighed,"Sofiegade 24, 3 28",1418 København K,1500000,03-05-2009,Alm Salg,58,25862 kr/m²,2,1975,6,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 2, 4",1418 København K,4050000,17-11-2009,Alm Salg,138,29348 kr/m²,5,1882,-3,Aktuel værdi
+E,Ejerlejlighed,"Sofiegade 24, 3 28",1418 København K,1500000,03-05-2009,Alm Salg,58,25862 kr/m²,2,1975,-6,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 2 15",1418 København K,1895000,25-04-2009,Alm Salg,83,22831 kr/m²,3,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 24, 3 25",1418 København K,1100000,29-09-2007,Fam Salg,38,28947 kr/m²,1,1975,0,Aktuel værdi
 E,Ejerlejlighed,"Sofiegade 10, 2 tv",1418 København K,3875000,07-09-2007,Alm Salg,123,31504 kr/m²,4,1977,0,Aktuel værdi
