@@ -1,0 +1,34 @@
+name: Crawl latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '37 13 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - run: pip install -r requirements.txt
+    - name: Crawl latest data
+      run: |-
+        scrapy crawl sold -a address=Prinsessegade -O data/prinsessegade.csv
+        scrapy crawl sold -a address=Sofiegade -O data/sofiegade.csv
+
+    - name: Run analysis (build report)
+      run: jupyter nbconvert --to notebook --execute analysis.ipynb --output analysis.ipynb
+
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
