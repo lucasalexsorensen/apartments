@@ -50,7 +50,8 @@ class SoldApartmentsScraper(scrapy.Spider):
             def fix_val(val, key):
                 val = val.strip()
                 if key in int_keys:
-                    return int(re.sub(r'\D', '', val))
+                    # remove all non-digits but preserve the minus sign
+                    return re.sub(r'[^-\d]', '', val)
                 else:
                     return val.replace('.', '')
                 
