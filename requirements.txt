@@ -3,3 +3,5 @@ urllib3==1.26.13
 matplotlib==3.6.2
 pandas==1.5.2
 nbconvert
+ipython
+ipykernel
