@@ -7,7 +7,7 @@ import re
 class SoldApartmentsScraper(scrapy.Spider):
     name = "sold"
 
-    def __init__(self, address = 'Prinsessegade', zipcodeFrom = 1050, zipcodeTo = 1472, *args, **kwargs):
+    def __init__(self, address = 'Prinsessegade', zipcodeFrom = 1050, zipcodeTo = 1472, maxPages=10, *args, **kwargs):
         super(SoldApartmentsScraper, self).__init__(*args, **kwargs)
         # build query params
         self.params = {
@@ -22,6 +22,7 @@ class SoldApartmentsScraper(scrapy.Spider):
         self.start_urls = [
             f"https://www.boliga.dk/salg/resultater?{urllib.parse.urlencode(self.params)}"
         ]
+        self.MAX_PAGES = maxPages
 
     def parse(self, response):
         keys = [
@@ -59,8 +60,13 @@ class SoldApartmentsScraper(scrapy.Spider):
             assert len(keys) == len(vals)
             yield dict(zip(keys, vals))
 
-        disabled_next_page = response.css('app-pagination > div > div.nav-right > a.disabled')
-        if not disabled_next_page:
+        next_page_anchors = response.css('app-pagination > div > div.nav-right > a.next')
+        if not next_page_anchors:
+            return
+        next_page_anchor = next_page_anchors[0]
+        is_disabled = next_page_anchor.css('::attr(class)').get().find('disabled') != -1
+        
+        if not is_disabled and self.params['page'] < self.MAX_PAGES:
             # construct next url by adding 1 to the page query param
             self.params['page'] += 1
             next_page = f"https://www.boliga.dk/salg/resultater?{urllib.parse.urlencode(self.params)}"
